@@ -97,21 +97,26 @@ const Doctor = ({user}) => {
                   onClick={() => window.open(doctor.calendlyLink, '_blank')}>
                    Book
                  </button> &nbsp; &nbsp;
-                &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+                {/* &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
                   onClick={() => window.location.href ='/chat'}>
                    Chat
-                 </button>
+                 </button> */}
                   </NavLink>:
+                  
                  <NavLink to='/login'>
                    <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
                   >
                     Book
                   </button>
-                 &nbsp; &nbsp; &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+                 {/* &nbsp; &nbsp; &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
                   >
                     Chat
-                  </button>
+                  </button> */}
                   </NavLink>}
+                  <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+                  onClick={() => window.location.href ='/chat'}>
+                   Chat
+                 </button>
                 </div>
               </div>
             </div>

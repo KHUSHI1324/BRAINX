@@ -1,7 +1,5 @@
 /* styles.css */
-.scrollbar-hidden::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, and Opera */
-  }
+
   
   .scrollbar-hidden {
     -ms-overflow-style: none;  /* IE and Edge */
