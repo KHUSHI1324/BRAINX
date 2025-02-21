@@ -97,17 +97,17 @@ const Doctor = ({user}) => {
                   onClick={() => window.open(doctor.calendlyLink, '_blank')}>
                    Book
                  </button> &nbsp; &nbsp;
-<<<<<<< HEAD
+
                 {/* &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
                   onClick={() => window.location.href ='/chat'}>
                    Chat
                  </button> */}
-=======
+
                 // &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
                 //   onClick={() => window.location.href ='/chat'}>
                 //    Chat
                 //  </button>
->>>>>>> 44d788229de481b6e119463ac9dc28f91257a69c
+
                   </NavLink>:
                   
                  <NavLink to='/login'>
@@ -115,21 +115,21 @@ const Doctor = ({user}) => {
                   >
                     Book
                   </button>
-<<<<<<< HEAD
+
                  {/* &nbsp; &nbsp; &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
                   >
                     Chat
                   </button> */}
                   </NavLink>}
                   <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
-=======
+
                  // &nbsp; &nbsp; &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
                  //  >
                  //    Chat
                  //  </button>
                   </NavLink>}
                     &nbsp; &nbsp; <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
->>>>>>> 44d788229de481b6e119463ac9dc28f91257a69c
+
                   onClick={() => window.location.href ='/chat'}>
                    Chat
                  </button>
