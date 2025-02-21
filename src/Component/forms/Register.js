@@ -122,13 +122,12 @@ const Sign_in = () => {
       <section className='relative max-h-screen'>
         
             <img className='fixed mb-[-200px] w-full h-full bg-cover blur-sm' src={hero}/>
-<<<<<<< HEAD
+
             <div className="relative z-1 w-[85%] mx-auto flex flex-col items-center">
             <div className='index' >
-=======
             <div className="relative z-5 w-[85%] mx-auto flex flex-col items-center">
             <div className='index'>
->>>>>>> 44d788229de481b6e119463ac9dc28f91257a69c
+
                 <h1 className='w-[200px] mt-5 ml-[6rem] cursor-pointer text-black'>Radaint Life</h1>
             </div><br/>
             <div className="border-none p-2.5 mt-[-50px] mb-2.5 rounded-md">
